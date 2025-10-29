@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Boutique</title>
+  <meta name="description" content="Stories for every season of life — Shop by Mood, Kids Corner, Ritual Cards, Grow with Grace, Gift a Story, About Us.">
+  <style>html{scroll-behavior:smooth}</style>
+  <script src="https://cdn.tailwindcss.com"></script>
+<script defer data-domain="book-boutique.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script></head>
+<body class="min-h-screen bg-gradient-to-b from-rose-50 to-white text-slate-900">
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center gap-4">
+      <span class="text-xl">📚</span>
+      <div class="font-bold tracking-tight">Book Boutique</div>
+      <nav class="ml-auto hidden md:flex items-center gap-4 text-sm">
+        <a href="#shop-by-mood" class="hover:underline">Shop by Mood</a>
+        <a href="#kids-corner" class="hover:underline">Kids Corner</a>
+        <a href="#ritual-cards" class="hover:underline">Ritual Cards</a>
+        <a href="#grow-with-grace" class="hover:underline">Grow with Grace</a>
+        <a href="#gift-a-story" class="hover:underline">Gift a Story</a>
+        <a href="#about-us" class="hover:underline">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="mb-8 space-y-2">
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Stories for every season of life</h1>
+      <p class="text-slate-600 max-w-2xl">Curated books and rituals to help you slow down, spark wonder, and grow with grace.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="grid gap-4">
+        <a href="#shop-by-mood" class="block rounded-2xl p-5 bg-gradient-to-br from-rose-100 to-rose-50 shadow-sm ring-1 ring-black/5">
+          <div class="flex items-center gap-3">
+            <span class="text-lg">🛍️</span>
+            <div><h3 class="text-lg font-semibold">Shop by Mood</h3><p class="text-sm text-slate-600">Find a book that matches your vibe.</p></div>
+          </div>
+        </a>
+        <a href="#kids-corner" class="block rounded-2xl p-5 bg-gradient-to-br from-amber-100 to-yellow-50 shadow-sm ring-1 ring-black/5">
+          <div class="flex items-center gap-3">
+            <span class="text-lg">👶</span>
+            <div><h3 class="text-lg font-semibold">Kids Corner</h3><p class="text-sm text-slate-600">Picture books & gentle adventures.</p></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="grid gap-4">
+        <a href="#ritual-cards" class="block rounded-2xl p-5 bg-gradient-to-br from-emerald-100 to-green-50 shadow-sm ring-1 ring-black/5">
+          <div class="flex items-center gap-3">
+            <span class="text-lg">✨</span>
+            <div><h3 class="text-lg font-semibold">Ritual Cards</h3><p class="text-sm text-slate-600">Simple practices to center your day.</p></div>
+          </div>
+        </a>
+        <a href="#grow-with-grace" class="block rounded-2xl p-5 bg-gradient-to-br from-sky-100 to-blue-50 shadow-sm ring-1 ring-black/5">
+          <div class="flex items-center gap-3">
+            <span class="text-lg">💖</span>
+            <div><h3 class="text-lg font-semibold">Grow with Grace</h3><p class="text-sm text-slate-600">Guides, prompts, and reading paths.</p></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="grid gap-4">
+        <a href="#gift-a-story" class="block rounded-2xl p-5 bg-gradient-to-br from-fuchsia-100 to-pink-50 shadow-sm ring-1 ring-black/5">
+          <div class="flex items-center gap-3">
+            <span class="text-lg">🎁</span>
+            <div><h3 class="text-lg font-semibold">Gift a Story</h3><p class="text-sm text-slate-600">Send books or digital gift cards.</p></div>
+          </div>
+        </a>
+        <a href="#about-us" class="block rounded-2xl p-5 bg-gradient-to-br from-slate-100 to-slate-50 shadow-sm ring-1 ring-black/5">
+          <div class="flex items-center gap-3">
+            <span class="text-lg">ℹ️</span>
+            <div><h3 class="text-lg font-semibold">About Us</h3><p class="text-sm text-slate-600">Our purpose, promise, and people.</p></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 space-y-16">
+    <section id="shop-by-mood" class="scroll-mt-24">
+      <div class="rounded-2xl border bg-white/70 p-6 shadow-sm">
+        <h2 class="text-2xl font-bold mb-4">🛍️ Shop by Mood</h2>
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="px-3 py-1 rounded-full bg-rose-100 text-sm">Cozy</span>
+          <span class="px-3 py-1 rounded-full bg-rose-100 text-sm">Adventurous</span>
+          <span class="px-3 py-1 rounded-full bg-rose-100 text-sm">Calming</span>
+          <span class="px-3 py-1 rounded-full bg-rose-100 text-sm">Uplifting</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="rounded-xl border bg-white p-4 shadow-sm"><div class="font-semibold">Tea & Quiet Corners</div><div class="text-sm text-slate-600">Mood: Cozy</div></div>
+          <div class="rounded-xl border bg-white p-4 shadow-sm"><div class="font-semibold">Across the Wild Dunes</div><div class="text-sm text-slate-600">Mood: Adventurous</div></div>
+          <div class="rounded-xl border bg-white p-4 shadow-sm"><div class="font-semibold">Breath Slow, Live Slow</div><div class="text-sm text-slate-600">Mood: Calming</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kids-corner" class="scroll-mt-24">
+      <div class="rounded-2xl border bg-white/70 p-6 shadow-sm">
+        <h2 class="text-2xl font-bold mb-4">👶 Kids Corner</h2>
+        <p class="text-slate-600 mb-4">Handpicked picture books and early readers that spark curiosity and kindness.</p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+          <button class="rounded-lg border bg-white px-3 py-2 text-sm">0–2 yrs</button>
+          <button class="rounded-lg border bg-white px-3 py-2 text-sm">3–5</button>
+          <button class="rounded-lg border bg-white px-3 py-2 text-sm">6–8</button>
+          <button class="rounded-lg border bg-white px-3 py-2 text-sm">9–12</button>
+          <button class="rounded-lg border bg-white px-3 py-2 text-sm">Teens</button>
+          <button class="rounded-lg border bg-white px-3 py-2 text-sm">Activity</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="ritual-cards" class="scroll-mt-24">
+      <div class="rounded-2xl border bg-white/70 p-6 shadow-sm">
+        <h2 class="text-2xl font-bold mb-4">✨ Ritual Cards</h2>
+        <div class="grid lg:grid-cols-2 gap-6 items-start">
+          <div class="space-y-3">
+            <p class="text-slate-600">A deck of simple prompts to help you begin and end each day with intention: breathe, notice, write, connect.</p>
+            <ul class="list-disc pl-5 space-y-1 text-sm">
+              <li>52 cards • linen finish • eco inks</li>
+              <li>Morning & evening rituals</li>
+              <li>Perfect companion to your reading practice</li>
+            </ul>
+          </div>
+          <div class="rounded-xl border p-6 bg-gradient-to-br from-emerald-50 to-white">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="rounded-lg border p-4 text-sm shadow-sm bg-white/70">Pause &amp; Breathe</div>
+              <div class="rounded-lg border p-4 text-sm shadow-sm bg-white/70">Name Your Joy</div>
+              <div class="rounded-lg border p-4 text-sm shadow-sm bg-white/70">Gratitude Three</div>
+              <div class="rounded-lg border p-4 text-sm shadow-sm bg-white/70">Unplug Hour</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grow-with-grace" class="scroll-mt-24">
+      <div class="rounded-2xl border bg-white/70 p-6 shadow-sm">
+        <h2 class="text-2xl font-bold mb-4">💖 Grow with Grace</h2>
+        <p class="text-slate-600 mb-4">Short, gentle guides to reading for well‑being: reflective prompts, seasonal lists, and tiny habits for busy days.</p>
+        <div class="grid md:grid-cols-3 gap-4 mb-8">
+          <div class="rounded-xl border bg-white p-4 shadow-sm"><div class="text-xs text-slate-500 mb-1">Ritual</div><div class="font-semibold">A 10‑minute evening reading ritual</div></div>
+          <div class="rounded-xl border bg-white p-4 shadow-sm"><div class="text-xs text-slate-500 mb-1">List</div><div class="font-semibold">6 cozy books for rainy weekends</div></div>
+          <div class="rounded-xl border bg-white p-4 shadow-sm"><div class="text-xs text-slate-500 mb-1">Guide</div><div class="font-semibold">How to track your reading with intention</div></div>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">📖 Book Picks</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/the-diary-of-a-ceo.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="https://platform-api.nanmeebooks.com/uploads/images/image-1734659988677.jpg" alt="The Diary of a CEO" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">The Diary of a CEO</div>
+            </div>
+          </a>
+
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/time-wise.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="https://platform-api.nanmeebooks.com/uploads/images/image-1732068819738.jpg" alt="Time Wise" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Time Wise</div>
+            </div>
+          </a>
+
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/coaching-for-success.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="https://platform-api.nanmeebooks.com/uploads/images/image-1730984000747.jpg" alt="Coaching for Success" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Coaching for Success</div>
+            </div>
+          </a>
+
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/life-changes-a-house-to-live-in.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="https://platform-api.nanmeebooks.com/uploads/images/image-1730890013372-sm.jpg" alt="Life Changes: A House to Live In" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Life Changes: A House to Live In</div>
+            </div>
+          </a>
+
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/super-chatting-ability.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="https://platform-api.nanmeebooks.com/uploads/images/image-1729735605367.jpg" alt="Super Chatting Ability" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Super Chatting Ability</div>
+            </div>
+          </a>
+
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/boxset-the-alchemist-and-maktub.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="https://platform-api.nanmeebooks.com/uploads/images/image-1747749501362-sm.jpg" alt="Box Set: The Alchemist & Maktub" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Box Set: The Alchemist & Maktub</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/today-happy-tomorrow-happier.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/today-happy-tomorrow-happier.jpg" alt="today happy, tomorrow happier" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">today happy tomorrow happier</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/store-is-welcome.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/store-is-welcome.jpg" alt="store is welcome" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">store is welcome</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/you-broke-up-with-me-on-my29th-birthday.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/you-broke-up-with-me-on-my29th-birthday.jpg" alt="You Broke Up with Me on My 29th Birthday" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">You Broke Up with Me on My 29th Birthday</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/well-be-sunshine-on-a-cloudy-day.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/well-be-sunshine-on-a-cloudy-day.jpg" alt="We’ll Be Sunshine on a Cloudy Day" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">We’ll Be Sunshine on a Cloudy Day</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/lets-run-away.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/lets-run-away.jpg" alt="Let's Run Away " class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Let's Run Away </div>
+            </div>
+          </a>
+		  
+		  <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/5days-after-the-death-of-my-hated-brother.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/5days-after-the-death-of-my-hated-brother.jpg" alt="Five Days After the Death of My Hated Brother" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Five Days After the Death of My Hated Brother</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/if-you-could-stay-longer,-what-would-you-do.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/if-you-could-stay-longer,-what-would-you-do.jpg" alt="If You Could Stay Longer, What Would You Do?" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">If You Could Stay Longer, What Would You Do?</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/the-last100days-of-mr-crocodile.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/the-last100days-of-mr-crocodile.jpg" alt="The Last 100 Days of Mr. Crocodile" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">The Last 100 Days of Mr. Crocodile</div>
+            </div>
+          </a>
+		   <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/sigh-can-i-just-disappear.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/sigh-can-i-just-disappear.jpg" alt="Sigh… Can I Just Disappear?" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Sigh… Can I Just Disappear?</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/am-fine-actually,-thats-a-lie.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/am-fine-actually,-thats-a-lie.jpg" alt="I’m Fine… Actually, That’s a Lie" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">I’m Fine… Actually, That’s a Lie</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/lemme-please-myself-for-just-1-day.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/lemme-please-myself-for-just-1-day.jpg" alt="Let Me Please Myself for Just One Day" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Let Me Please Myself for Just One Day</div>
+            </div>
+          </a>
+		  
+		  <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/once-fate-pulled-us-together.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/once-fate-pulled-us-together.jpg" alt="Once, Fate Pulled Us Together" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Once, Fate Pulled Us Together</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/i-have-nothing.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/i-have-nothing.jpg" alt="I Have Nothing" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">I Have Nothing</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/waiting-for-boats-and-other-random-things.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/waiting-for-boats-and-other-random-things.jpg" alt="Waiting for Boats and Other Random Things" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Waiting for Boats and Other Random Things</div>
+            </div>
+          </a>
+		  
+		   <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/seasons-change,-my-happiness-remains.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/seasons-change,-my-happiness-remains.jpg" alt="Seasons Change, My Happiness Remains" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Seasons Change, My Happiness Remains</div>
+            </div>
+          </a>
+		  
+		  <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/live-dont-just-long.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/live-dont-just-long.jpg" alt="Live, Don’t Just Long" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Live, Don’t Just Long</div>
+            </div>
+          </a>
+
+          <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/dont-keep-the-pain-inside.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/dont-keep-the-pain-inside.jpg" alt="Don’t Keep the Pain Inside" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Don’t Keep the Pain Inside</div>
+            </div>
+          </a>
+		  
+		   <a class="group block rounded-xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition" href="books/super-chatting-ability.html">
+            <div class="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
+              <img src="assets/book/store-is-welcome.jpg" alt="Super Chatting Ability" class="h-full w-full object-cover object-center group-hover:scale-[1.02] transition" loading="lazy">
+            </div>
+            <div class="p-2">
+              <div class="line-clamp-2 text-sm font-medium">Super Chatting Ability</div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="gift-a-story" class="scroll-mt-24">
+      <div class="rounded-2xl border bg-white/70 p-6 shadow-sm">
+        <h2 class="text-2xl font-bold mb-4">🎁 Gift a Story</h2>
+        <div class="grid lg:grid-cols-2 gap-6 items-center">
+          <div class="space-y-3">
+            <p class="text-slate-600">Send a book bundle or a digital gift card. Let them choose their own next favorite read.</p>
+            <div class="flex flex-wrap gap-2">
+              <button class="px-3 py-2 rounded-lg bg-white border text-sm">฿300</button>
+              <button class="px-3 py-2 rounded-lg bg-white border text-sm">฿500</button>
+              <button class="px-3 py-2 rounded-lg bg-white border text-sm">฿1000</button>
+            </div>
+          </div>
+          <div class="rounded-xl border p-6 bg-gradient-to-br from-pink-50 to-white text-center">
+            <div class="text-4xl font-extrabold">💌</div>
+            <p class="mt-2 text-sm text-slate-600">Instant delivery • Personal message • No expiry</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-us" class="scroll-mt-24">
+      <div class="rounded-2xl border bg-white/70 p-6 shadow-sm">
+        <h2 class="text-2xl font-bold mb-4">ℹ️ About Us</h2>
+        <p class="text-slate-600 mb-4">We believe books are gentle tools for change. Book Boutique curates stories and practices to help you slow down, reconnect, and keep growing—at any age.</p>
+        <div class="grid md:grid-cols-3 gap-4 text-sm">
+          <div class="rounded-xl border p-4 bg-white/70">📦 Fast shipping in Thailand</div>
+          <div class="rounded-xl border p-4 bg-white/70">🌿 Eco‑friendly packaging</div>
+          <div class="rounded-xl border p-4 bg-white/70">💬 Human support, always</div>
+          <div class="rounded-xl border p-4 bg-white/70 space-y-2">
+            <div class="font-semibold">ติดต่อเรา</div>
+            <div>📞 <a class="hover:underline" href="tel:+66806653559">080-665-3559</a></div>
+            <div>✉️ <a class="hover:underline" href="mailto:phanpat6595@gmail.com">phanpat6595@gmail.com</a></div>
+            <div class="text-xs text-slate-500 mt-1">สแกน LINE OA เพื่อแชท</div>
+            <img src="assets/line-qr.png" alt="LINE OA QR" class="w-40 h-40 object-contain rounded-lg border bg-white">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t bg-white/60 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-slate-600 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div>© <span id="y"></span> Book Boutique. All rights reserved.</div>
+      <div class="flex items-center gap-4">
+        <a class="hover:underline" href="#about-us">About</a>
+        <a class="hover:underline" href="#gift-a-story">Gift</a>
+        <a class="hover:underline" href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
